@@ -64,6 +64,6 @@ function calcula_media(){
 
     media = soma_notas/lista_notas.length
 
-    campo_media.innerHTML = media
+    campo_media.innerHTML = media.toFixed(2);
     campo_aprovado_reprovado.innerHTML = media >=7 ? estilo_span_aprovado : estilo_span_reprovado
 }
